@@ -46,6 +46,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.branco {
     background-color: white;
     color: black;
@@ -54,13 +58,25 @@ section.branco {
 section.imagem {
     background-color: rgb(58, 58, 58);
     color: white;
-
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.704);
 }
 
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.469);
     padding: 7px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#bg01 {
+    background-image: url(imagens/background001.jpg);
+}
+
+section#bg02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
